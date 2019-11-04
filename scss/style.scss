@@ -1,6 +1,16 @@
-$color: #fc4c4c;
-$height: 15px;
-body {
-    background:$color;
-    height: $height;
-}
+/*************** Fonts ************/
+
+@import 'fonts';
+
+/************ Header ************/
+
+@import 'header';
+
+
+/*********** Section **********/
+
+@import 'section';
+
+/********** Media **********/
+
+@import 'media';

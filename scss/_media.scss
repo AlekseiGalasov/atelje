@@ -1,0 +1,151 @@
+@media screen and (max-width: 1154px) {
+    .map__img {
+        width: 90vw;
+    }
+
+    .content__title {
+        font-size: 35px;
+    }
+
+    .content__text {
+        font-size: 13px;
+    }
+
+    .content__btn {
+        font-size: 10px;
+    }
+
+    .block__inner {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 973px) {
+    .content--margin-left {
+        margin-left: 35px;
+    }
+
+    .content--margin-right {
+        margin-right: 35px;
+    }
+
+    .menu__link {
+        font-size: 10px;
+    }
+
+    .block--size {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .content__img {
+        width: 60%;
+    }
+
+    .content__title {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .content__text {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .background {
+        display: none;
+    }
+
+    .section__inner {
+        display: block;
+    }
+
+    .body:nth-child(odd) {
+        background-color: rgba(223, 223, 223, 0.5);
+        height: 400px;
+    }
+
+    .content__img {
+        width: 45%;
+    }
+
+    .content__title {
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .content__text {
+        margin: 15px 0;
+    }
+
+    .content {
+        margin: 20px 35px;
+    }
+
+    .menu-hamb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu__wrapper {
+        display: none;
+    }
+
+    .header__header-inner {
+        grid-template-columns: 2fr 0.5fr;
+    }
+
+    .blocks--M-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .blocks--B-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .block__pos {
+        display: none;
+    }
+    .block--display {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .block__text {
+        font-size: 12px;
+    }
+    .block__title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .block__text {
+        font-size: 10px;
+    }
+    .block__title {
+        font-size: 12px;
+    }
+    .block__img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .block__text {
+        font-size: 9px;
+    }
+    .block__title {
+        font-size: 10px;
+    }
+    .block__img {
+        width: 32px;
+        height: 32px;
+    }
+}

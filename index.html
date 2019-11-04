@@ -1,13 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Atelje</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="header__header-inner">
+            <div class="logo-row">
+                <div class="logo">
+                    <div class="logo__inner">
+                        <img src="img/logo.png" alt="logo" class="logo__logo-img">
+                        <p class="logo__text logo__text--red">Friends</p>
+                        <p class="logo__text">Family</p>
+                    </div>
+                </div>
+            </div>
+            <ul class="menu menu__wrapper">
+                <li class="menu__item"><a id="main" href="#" class="menu__link">Главная</a></li>
+                <li class="menu__item"><a id="advantages" href="#" class="menu__link">Преимущества</a></li>
+                <li class="menu__item"><a id="work" href="#" class="menu__link">Схема работы</a></li>
+                <li class="menu__item"><a id="box" href="#" class="menu__link">Коробка</a></li>
+                <li class="menu__item"><a id="contacts" href="#" class="menu__link">Контакты</a></li>
+            </ul>
+            <div class="menu-hamb">
+                <img src="/img/hamburger.png" alt="hamb">
+            </div>
+            <div class="hamb-list" style="height: 0%;">
+                <div class="close">x</div>
+                <ul class="hamb-list__wrapper">
+                    <li class="hamb-list__item"><a href="#" class="hamb-list__link">Главная</a></li>
+                    <li class="hamb-list__item"><a href="#" class="hamb-list__link">Преимущества</a></li>
+                    <li class="hamb-list__item"><a href="#" class="hamb-list__link">Схема работы</a></li>
+                    <li class="hamb-list__item"><a href="#" class="hamb-list__link">Коробка</a></li>
+                    <li class="hamb-list__item"><a href="#" class="hamb-list__link">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="section main">
+        <div class="section__inner">
+            <div class="body">
+                <div class="content content--margin-left">
+                    <h2 class="content__title">Ателье
+                        одинаковой одежды
+                        для мам и дочек.</h2>
+                    <img src="/img/text_1.png" alt="text" class="content__img">
+                    <p class="content__text">
+                        Оставьте свой номер телефона или ссылку
+                        на VK страницу и мы с вами свяжемся.</p>
+                    <button class="content__btn">Оставить контакты</button>
+                </div>
+            </div>
+            <div class="background">
+                <img class="background__img" src="/img/background/background_1.png" alt="background">
+            </div>
+        </div>
+    </section>
+    <section class="section advantages">
+        <div class="section__inner">
+            <div class="background">
+                <img class="background__img" src="/img/background/background_2.png" alt="background">
+            </div>
+            <div class="body">
+                <div class="content content--align content--margin-right">
+                    <img src="/img/text_2.png" alt="text" class="content__img">
+                    <h2 class="content__title">Мы создаем комплекты
+                        в единственном экземпляре</h2>
+                    <p class="content__text">
+                        Хотите выделяться из толпы?
+                        <br>
+                        <br>
+                        Оставьте свои контакты и мы с вами свяжемся
+                        для обсуждения заказа. </p>
+                    <button class="content__btn">Оставить контакты</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section__inner">
+            <div class="body">
+                <div class="content content--margin-left">
+                    <img src="/img/text_3.png" alt="text" class="content__img">
+                    <h2 class="content__title">Пошив с учетом особенностей вашей фигуры!</h2>
+                    <p class="content__text">
+                        Вы знаете, чего хотите?
+                        <br>
+                        <br>
+                        Оставьте заявку с фотографией и мы вышлем вам
+                        примерную смету через 15 минут!</p>
+                    <button class="content__btn">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="background">
+                <img class="background__img" src="/img/background/background_3.png" alt="background">
+            </div>
+        </div>
+    </section>
+    <section class="section work">
+        <div class="body__wrapper">
+            <h3 class="section__title">Схема работы</h3>
+            <div class="blocks_wrap">
+                <div class="blocks_wrap__grid blocks--M-grid">
+                    <div class="block">
+                        <div class="block__inner">
+                            <img src="/img/block/img_1.svg" alt="img" class="block__img">
+                            <h4 class="block__title">Вы оставляете заявку.</h4>
+                            <p class="block__text">Мы связываемся с вами и уточняем детали</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__inner">
+                            <img src="/img/block/img_2.svg" alt="img" class="block__img">
+                            <h4 class="block__title">Снятие мерок.</h4>
+                            <p class="block__text">
+                                Снимаете мерки
+                                самостоятельно или же
+                                приезжаете к нам. </p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__inner">
+                            <img src="/img/block/img_3.svg" alt="img" class="block__img">
+                            <h4 class="block__title">Вдаемся в детали</h4>
+                            <p class="block__text">
+                                Изучаем ваш цветотип
+                                и особенности
+                                вашей фигуры.</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__inner">
+                            <img src="/img/block/img_4.svg" alt="img" class="block__img">
+                            <h4 class="block__title">Подбираем ткань</h4>
+                            <p class="block__text">
+                                Выбираем цвет,
+                                материал ткани
+                                и фурнитуры. </p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__inner">
+                            <img src="/img/block/img_5.svg" alt="img" class="block__img">
+                            <h4 class="block__title">Выкройка и пошив</h4>
+                            <p class="block__text">
+                                Делаем выкройки
+                                по вашим меркам
+                                и шьем изделие. </p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__inner">
+                            <img src="/img/block/img_6.svg" alt="img" class="block__img">
+                            <h4 class="block__title">Упаковка и отправка</h4>
+                            <p class="block__text">
+                                Упаковываем в
+                                подарочную коробку
+                                и отправляем Вам.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section box">
+        <div class="body__wrapper">
+            <h3 class="section__title">Что в коробке?</h3>
+            <h4 class="section__title section--size section--width">Коробка разлагается 
+                через 3-4 года в ЕКО среде.</h4>
+            <div class="blocks_wrap">
+                <div class="blocks_wrap__grid blocks--B-grid">
+                    <div class="block">
+                        <div class="block__inner block--display block--left">
+                            <img src="/img/block_2/img_1.png" alt="img" class="block__img">
+                            <h4 class="block__title">Вешалка</h4>
+                            <p class="block__text">Удобная вешалка в ЭКО-дизайне</p>
+                        </div>
+                    </div>
+                    <div class="block block__pos">
+                        <div class="block__inner">
+                            <img src="/img/block_2/img_5.png" alt="img" class="block__img block--size">
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__inner block--display block--right">
+                            <img src="/img/block_2/img_2.png" alt="img" class="block__img">
+                            <h4 class="block__title">Изделие в биобумаге</h4>
+                            <p class="block__text">Как стирать, гладить одежду из ткани изделия</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__inner block--display block--left">
+                            <img src="/img/block_2/img_3.png" alt="img" class="block__img">
+                            <h4 class="block__title">Инструкция по уходу</h4>
+                            <p class="block__text content--align">Ваше изделие в экологической разлагающейся
+                                бумаге</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="block__inner block--display block--right">
+                            <img src="/img/block_2/img_4.png" alt="img" class="block__img">
+                            <h4 class="block__title">Подарок!</h4>
+                            <p class="block__text">На выбор - фотосессия или кулон</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section contacts">
+        <h3 class="section__title">Осуществляем доставку по всему миру!</h3>
+        <div class="map">
+            <div class="map__wrap">
+                <img src="/img/map.png" alt="map" class="map__img">
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section__inner">
+            <div class="body">
+                <div class="content content--margin-left">
+                    <h2 class="content__title">Пошив с учетом особенностей вашей фигуры!</h2>
+                    <p class="content__text">
+                        Вы знаете, чего хотите?
+                        <br>
+                        <br>
+                        Оставьте заявку с фотографией и мы вышлем вам
+                        примерную смету через 15 минут!</p>
+                    <button class="content__btn">Оставить заявку</button>
+                </div>
+            </div>
+            <div class="background">
+                <img class="background__img" src="/img/background/background_4.png" alt="background">
+            </div>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
